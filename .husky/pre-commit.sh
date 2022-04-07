@@ -1,3 +1,3 @@
 # .husky/pre-commit
 # ...
-npm run staged
+npm staged
