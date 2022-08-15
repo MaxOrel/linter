@@ -2,17 +2,15 @@
 	"private": true,
 	"devDependencies": {
 		"@htmlacademy/editorconfig-cli": "1.0.0",
-		"eslint": "8.7.0",
 		"husky": "7.0.4",
 		"lint-staged": "12.3.7",
-		"stylelint": "13.13.1",
+		"stylelint": "14.0.0",
 		"stylelint-order": "5.0.0"
 	},
 	"scripts": {
 		"editorconfig": "editorconfig-cli",
 		"stylelint": "stylelint \"src/**/*.css\"",
 		"stylelint:fixed": "stylelint \"src/**/*.css\" --fix",
-		"eslint": "eslint src/**/*.js",
 		"test": "npm run editorconfig && npm run stylelint",
 		"prepare": "husky install",
 		"staged": "lint-staged"
